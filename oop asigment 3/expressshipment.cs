@@ -34,6 +34,10 @@ namespace oop_asigment_3
                 return delevaryfee + (weight * 5) + Extrafee;
             }
         }
+        public override void printshipment()
+        {
+            Console.WriteLine($"tracking:{trackingcode},description{description},weight{weight},delevaryfee{delevaryfee},estimatedcost{estimatedcost},extrafee{Extrafee}");
+        }
     }
 
 }

@@ -105,10 +105,18 @@ namespace oop_asigment_3
             }
 
         }
-        public void printshipment()
+        public virtual void printshipment()
         {
             Console.WriteLine($"tracking code:{trackingcode},description:{description},weight:{weight}),delevaryfee:{delevaryfee},destiontion:{destination}");
 
+        }
+        public void upadteweight(decimal newweight)
+        {
+            weight = newweight;
+        }
+        public void upadteweight(decimal newweight, decimal peckingweight)
+        {
+            weight = newweight + peckingweight;
         }
 
 

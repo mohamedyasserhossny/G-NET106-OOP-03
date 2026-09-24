@@ -52,6 +52,15 @@ namespace oop_asigment_3
                 return delevaryfee + (weight * 5) + Customfee;
             }
         }
+        public override void printshipment()
+        {
+            Console.WriteLine($"tracking:{trackingcode},description{description},weight{weight},delevaryfee{delevaryfee},estimatedcost{estimatedcost},destinationcountry{Destiontioncountry},customfee{Customfee}");
+        }
+        public virtual void genatrecustomreports()
+        {
+
+        }
+        
 
     }
 }

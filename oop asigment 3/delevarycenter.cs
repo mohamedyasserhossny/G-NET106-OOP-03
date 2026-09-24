@@ -9,6 +9,7 @@ namespace oop_asigment_3
     internal class delevarycenter
     {
         public string centername { get; set; }
+        public driver driver { set; get; }
         private Shipment[] shipments;
         public delevarycenter()
         {
