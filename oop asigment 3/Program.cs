@@ -11,7 +11,9 @@
             // dynamic binding : know the method in run time and known as later binding
             #endregion
             #region question 2
-
+            //a)no another class can inheret from sealed class
+            //b) selead class no class can inheret from it but sealed method is the last method no method can ovverride after it
+            //c)no
             #endregion
         }
     }
